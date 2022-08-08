@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Outfit&display=swap');
+
+* {
+    margin: unset;
+    padding: unset;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Outfit', sans-serif;
+}
+
+nav {
+    background: #1d1f30;
+    height: 3rem;
+    line-height: 3rem;
+    color: white;
+    margin-bottom: 1rem;
+    box-shadow: 0px 6px 15px 5px #C2C2C2;
+    text-align: center;
+}
+
+.mainCont {
+    background-color: #bfbfbf;
+    width: 20rem;
+    margin: auto;
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+}
+
+.container {
+    padding: 1rem;
+    background-color: #525679;
+    color: white;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    text-align: center;
+    display: none;
+}
+
+#totalPriceDiv {
+    background-color: #525679;
+    border-radius: 0.4rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+#itemForm label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#itemForm input {
+    height: 2rem;
+    text-align: center;
+    border: 1px solid #bfbfbf;
+    border-radius: 0.7rem;
+    margin-left: 0.7rem;
+}
+
+#addItemButton {
+    border: unset;
+    background: #00805a;
+    border-radius: 0.5rem;
+    width: 8rem;
+    color: #fff;
+    padding: 0.5rem;
+    box-shadow: 0px 0.5px 6px 0.5px black;
+}
+
+#addItemButton:active {
+    background-color: #03523b;
+}
+
+#clearItemsButton {
+    border: unset;
+    background: darkred;
+    color: #fff;
+    padding: 0.5rem;
+    margin: auto;
+    width: 10rem;
+    display: block;
+    border-radius: 0.7rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0.5px 6px 0.5px black;
+}
+
+#clearItemsButton:active {
+    background-color: #5d0101;
+}
+
+.addItemFloat {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #00805a;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+#addItemFloat:active .container {
+    background-color: #03523b;
+}
+
+.visible {
+    display: block;
+}
+
+#itemsDiv {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: #eaeaea;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.checkbox {
+    height: 100%;
+    width: 2rem;
+}
+
+.itemInfo {
+    text-align: center;
+}
+
+.deleteButton {
+    margin: 0 0 0 auto;
+    border: unset;
+    background: #b10000;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 2.5rem;
+    height: 100%;
+}
+
+.deleteButton:active {
+    margin-top: 1px;
+}
+
+.purchased {
+    background: #00805a;
+    color: #fff;
+}
+
+.purchased p {
+    text-decoration: line-through;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+}
+
